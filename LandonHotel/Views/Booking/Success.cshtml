@@ -1,0 +1,20 @@
+﻿@model LandonHotel.Models.BookingSuccessViewModel
+@{
+    ViewData["Title"] = "Book Now";
+    Html.Html5DateRenderingMode = Html5DateRenderingMode.Rfc3339;
+}
+
+<div class="scene" id="welcome">
+    <article class="content">
+        <div class="gallery">
+            <img src="/images/hotel/intro_room.jpg" alt="Intro Gallery Room Sample Pictures">
+            <img src="/images/hotel/intro_pool.jpg" alt="Intro Gallery Pool Sample Pictures">
+            <img src="/images/hotel/intro_dining.jpg" alt="Intro Gallery Dining Sample Pictures">
+            <img src="/images/hotel/intro_attractions.jpg" alt="Intro Gallery Attractions Sample Pictures">
+            <img class="hidesm" src="/images/hotel/intro_wedding.jpg" alt="Intro Gallery Dining Sample Pictures">
+        </div>
+        <h1>Your booking was successful</h1>
+        <sub>Estimated Total: $@Model.Price.ToString("0.00")</sub><br />
+        <sub>See you soon</sub>
+    </article>
+</div>

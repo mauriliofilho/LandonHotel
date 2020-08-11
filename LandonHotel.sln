@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandonHotel", "LandonHotel\LandonHotel.csproj", "{F1BD4F0C-5BAF-4E40-972C-8D50FEE34EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandonHotal.Tests", "LandonHotal.Tests\LandonHotal.Tests.csproj", "{44365918-AA10-47DF-A20C-2DE738D415E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BD4F0C-5BAF-4E40-972C-8D50FEE34EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BD4F0C-5BAF-4E40-972C-8D50FEE34EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BD4F0C-5BAF-4E40-972C-8D50FEE34EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BD4F0C-5BAF-4E40-972C-8D50FEE34EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44365918-AA10-47DF-A20C-2DE738D415E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44365918-AA10-47DF-A20C-2DE738D415E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44365918-AA10-47DF-A20C-2DE738D415E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44365918-AA10-47DF-A20C-2DE738D415E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
